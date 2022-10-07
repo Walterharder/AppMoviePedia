@@ -41,7 +41,7 @@
         tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/id_cadastrar"
         android:layout_width="163dp"
         android:layout_height="59dp"
         android:layout_marginStart="95dp"

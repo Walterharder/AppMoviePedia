@@ -15,8 +15,6 @@
         android:layout_marginEnd="22dp"
         android:width="50dp"
         android:background="#D3312D"
-
-
         android:color="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,7 +24,7 @@
         app:layout_constraintVertical_bias="0.498" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/id_nome"
         android:layout_width="260dp"
         android:layout_height="48dp"
         android:layout_marginStart="50dp"
@@ -36,13 +34,14 @@
         android:ems="10"
         android:hint="E-MAIL"
         android:inputType="textPersonName"
+        android:textColorHint="#FFFF00"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/id_senha"
         android:layout_width="260dp"
         android:layout_height="48dp"
         android:layout_marginStart="50dp"
@@ -52,15 +51,16 @@
         android:ems="10"
         android:hint="SENHA"
         android:inputType="textPersonName"
+        android:textColorHint="#FFFF00"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/id_nome"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/id_entrar"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="219dp"
@@ -70,6 +70,7 @@
         android:backgroundTint="#FFCC20"
         android:text="ENTRAR"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.85"
@@ -78,7 +79,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/id_esqueci_senha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -86,6 +87,7 @@
         android:layout_marginEnd="241dp"
         android:layout_marginBottom="59dp"
         android:text="ESQUECI MINHA SENHA"
+        android:textColor="#FFF3E0"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintHorizontal_bias="0.021"
