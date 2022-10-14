@@ -23,6 +23,11 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
+        android:id="@+id/nav_filmes"
+        android:name="com.example.moviepedia.ui.filmes.FilmesFragment"
+        android:label="Filmes"
+        tools:layout="@layout/fragment_filmes"/>
+    <fragment
         android:id="@+id/nav_sobre"
         android:name="com.example.moviepedia.ui.sobreapp.SobreAppFragment"
         android:label="Sobre"
