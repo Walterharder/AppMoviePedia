@@ -44,7 +44,7 @@ public class AberturaActivity extends AppCompatActivity implements Runnable {
         }
 
         finish();
-        startActivity(new Intent(this, LoginCadastrar.class));
+        startActivity(new Intent(this, Home.class));
 
     }
 }
