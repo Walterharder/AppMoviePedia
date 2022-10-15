@@ -16,6 +16,26 @@
         android:label="Filmes"
         tools:layout="@layout/fragment_filmes"/>
     <fragment
+        android:id="@+id/nav_series"
+        android:name="com.example.moviepedia.ui.series.SeriesFragment"
+        android:label="Séries"
+        tools:layout="@layout/fragment_series" />
+    <fragment
+        android:id="@+id/nav_shows"
+        android:name="com.example.moviepedia.ui.shows.ShowsFragment"
+        android:label="Shows"
+        tools:layout="@layout/fragment_shows" />
+    <fragment
+        android:id="@+id/nav_documentarios"
+        android:name="com.example.moviepedia.ui.documentarios.DocumentariosFragment"
+        android:label="Documentários"
+        tools:layout="@layout/fragment_documentarios" />
+    <fragment
+        android:id="@+id/nav_desenhos"
+        android:name="com.example.moviepedia.ui.desenhos.DesenhosFragment"
+        android:label="Desenhos"
+        tools:layout="@layout/fragment_desenhos" />
+    <fragment
         android:id="@+id/nav_sobre"
         android:name="com.example.moviepedia.ui.sobreapp.SobreAppFragment"
         android:label="Sobre"
