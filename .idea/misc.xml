@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/activity_cadastrar.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/activity_home2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
@@ -11,7 +12,7 @@
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/app_bar_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/content_home.xml" value="0.358695652173913" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/fragment_filmes.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/fragment_sobre_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/fragment_sobre_app.xml" value="0.25" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/layout/nav_header_home.xml" value="0.25" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/walte/AndroidStudioProjects/AppMoviePedia/app/src/main/res/menu/home.xml" value="0.20416666666666666" />

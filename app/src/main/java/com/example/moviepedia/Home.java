@@ -2,8 +2,11 @@ package com.example.moviepedia;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,13 +17,13 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.moviepedia.databinding.ActivityHome2Binding;
+import com.example.moviepedia.ui.series.SeriesFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class Home extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityHome2Binding binding;
-
 
 
     @Override
@@ -44,8 +47,6 @@ public class Home extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-      
-
     }
 
     @Override
@@ -63,4 +64,7 @@ public class Home extends AppCompatActivity {
     }
 
 
+
+
 }
+

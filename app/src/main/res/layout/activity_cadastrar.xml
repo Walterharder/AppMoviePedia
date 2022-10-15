@@ -126,7 +126,7 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/id_confirmar"
         android:layout_width="155dp"
         android:layout_height="43dp"
         android:layout_marginStart="205dp"
