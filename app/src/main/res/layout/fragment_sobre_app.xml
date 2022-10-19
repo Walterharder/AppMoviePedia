@@ -3,17 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    android:layout_gravity="center"
     tools:context=".ui.sobreapp.SobreAppFragment">
 
 
-    <TextView
-        android:id="@+id/txtContato"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/contato"
-        android:textSize="40sp"
-        android:gravity="center"/>
+    <Button
+        android:id="@+id/sair"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sair"/>
 
 </LinearLayout>
