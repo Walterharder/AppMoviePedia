@@ -7,10 +7,54 @@
     android:background="@drawable/inicial"
     tools:context=".Cadastrar">
 
+    <!--    <EditText-->
+<!--        android:id="@+id/id_nome"-->
+<!--        android:layout_width="257dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_marginStart="50dp"-->
+
+<!--        android:layout_marginTop="42dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="265dp"-->
+<!--        android:backgroundTint="#FFCC20"-->
+<!--        android:ems="10"-->
+<!--        android:hint="NOME"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:selectAllOnFocus="false"-->
+<!--        android:singleLine="false"-->
+<!--        android:textColorHint="#FFFF00"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/view2"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/view2"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/view2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/view2"-->
+<!--        tools:ignore="TouchTargetSizeCheck" />-->
+
+    <!--    <EditText-->
+<!--        android:id="@+id/id_confirmar_senha"-->
+<!--        android:layout_width="257dp"-->
+<!--        android:layout_height="40dp"-->
+
+<!--        android:layout_marginStart="50dp"-->
+<!--        android:layout_marginTop="159dp"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginBottom="150dp"-->
+<!--        android:backgroundTint="#FFCC20"-->
+<!--        android:ems="10"-->
+<!--        android:hint="CONFIRMA SENHA"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textColorHint="#FFFF00"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/view2"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/view2"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/view2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/view2"-->
+<!--        tools:ignore="TouchTargetSizeCheck" />-->
+
     <View
         android:id="@+id/view2"
-        android:layout_width="356dp"
-        android:layout_height="349dp"
+        android:layout_width="352dp"
+        android:layout_height="280dp"
         android:layout_marginStart="22dp"
         android:layout_marginEnd="22dp"
         android:width="50dp"
@@ -18,33 +62,10 @@
         android:color="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.581" />
-
-    <EditText
-        android:id="@+id/id_nome"
-        android:layout_width="257dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="50dp"
-
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="265dp"
-        android:backgroundTint="#FFCC20"
-        android:ems="10"
-        android:hint="NOME"
-        android:inputType="textPersonName"
-        android:selectAllOnFocus="false"
-        android:singleLine="false"
-        android:textColorHint="#FFFF00"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <EditText
         android:id="@+id/id_email_cadastro"
@@ -52,9 +73,9 @@
         android:layout_height="39dp"
 
         android:layout_marginStart="50dp"
-        android:layout_marginTop="209dp"
+        android:layout_marginTop="73dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="101dp"
+        android:layout_marginBottom="168dp"
         android:backgroundTint="#FFCC20"
         android:ems="10"
         android:hint="E-MAIL"
@@ -63,6 +84,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
@@ -70,12 +92,12 @@
     <EditText
         android:id="@+id/id_senha_cadastro"
         android:layout_width="257dp"
-        android:layout_height="38dp"
+        android:layout_height="39dp"
 
         android:layout_marginStart="50dp"
-        android:layout_marginTop="103dp"
+        android:layout_marginTop="133dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="208dp"
+        android:layout_marginBottom="109dp"
         android:backgroundTint="#FFCC20"
         android:ems="10"
         android:hint="SENHA"
@@ -84,27 +106,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/id_confirmar_senha"
-        android:layout_width="257dp"
-        android:layout_height="40dp"
-
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="159dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="150dp"
-        android:backgroundTint="#FFCC20"
-        android:ems="10"
-        android:hint="CONFIRMA SENHA"
-        android:inputType="textPersonName"
-        android:textColorHint="#FFFF00"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
         tools:ignore="TouchTargetSizeCheck" />
@@ -114,14 +116,15 @@
         android:layout_width="98dp"
         android:layout_height="26dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="208dp"
-        android:layout_marginBottom="316dp"
+        android:layout_marginBottom="240dp"
         android:fontFamily="sans-serif-black"
         android:text="CADASTRO"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
@@ -130,9 +133,9 @@
         android:layout_width="155dp"
         android:layout_height="43dp"
         android:layout_marginStart="205dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="205dp"
         android:layout_marginEnd="46dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginBottom="32dp"
         android:backgroundTint="#FFCC20"
         android:fontFamily="sans-serif"
         android:text="CONFIRMAR"
@@ -140,10 +143,9 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.981"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2"
-        app:layout_constraintVertical_bias="0.745"
         tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

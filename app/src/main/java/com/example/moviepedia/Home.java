@@ -20,6 +20,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.moviepedia.databinding.ActivityHome2Binding;
 import com.example.moviepedia.ui.series.SeriesFragment;
+import com.example.moviepedia.ui.sobreapp.SobreAppFragment;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -54,6 +55,15 @@ public class Home extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
+//        binding.drawerLayout.findViewById(R.id.logout_app).setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                mAuth.getInstance().signOut();
+//                finish();
+//            }
+//        });
+
+
     }
 
     @Override
@@ -77,6 +87,8 @@ public class Home extends AppCompatActivity {
         //}
             //return super.onOptionsItemSelected(item);
     //}
+
+
 
     @Override
     public boolean onSupportNavigateUp() {

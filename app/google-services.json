@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739273654615",
+    "project_id": "moviepedia-37558",
+    "storage_bucket": "moviepedia-37558.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739273654615:android:5446c7336b5f5db7e77e12",
+        "android_client_info": {
+          "package_name": "com.example.moviepedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739273654615-ip43k7h96jatquhubohp6eb3p1ap6s6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv1bLS9okGQvXJSnpzhdGnuC7N6ZoMDGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739273654615-ip43k7h96jatquhubohp6eb3p1ap6s6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

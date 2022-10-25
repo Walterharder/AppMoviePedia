@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/sair"
+        android:id="@+id/logout_app"
         android:layout_width="155dp"
         android:layout_height="wrap_content"
         android:gravity="center"

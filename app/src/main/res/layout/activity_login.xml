@@ -28,7 +28,7 @@
         android:layout_width="260dp"
         android:layout_height="48dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="46dp"
         android:backgroundTint="#FFCC20"
         android:ems="10"
@@ -36,7 +36,7 @@
         android:inputType="textPersonName"
         android:textColorHint="#FFFF00"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
@@ -45,26 +45,24 @@
         android:layout_width="260dp"
         android:layout_height="48dp"
         android:layout_marginStart="50dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="41dp"
-        android:layout_marginBottom="118dp"
         android:backgroundTint="#FFCC20"
         android:ems="10"
         android:hint="@string/senha"
         android:inputType="textPassword"
         android:textColorHint="#FFFF00"
-        app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toBottomOf="@+id/id_nome"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintTop_toBottomOf="@+id/id_nome" />
 
     <Button
         android:id="@+id/botaoEntrar"
         android:layout_width="88dp"
         android:layout_height="48dp"
         android:layout_marginStart="220dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="56dp"
         android:backgroundTint="#FFCC20"
         android:text="@string/entrar"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -77,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="108dp"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="24dp"
         android:text="ESQUECI MINHA SENHA"
         android:textColor="#FFF3E0"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
@@ -85,29 +83,30 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="47dp"
-        android:layout_height="21dp"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="11dp"
-        android:layout_marginEnd="255dp"
-        android:layout_marginBottom="248dp"
+        android:layout_width="98dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="240dp"
         android:fontFamily="sans-serif-black"
         android:text="LOGIN"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="@+id/view2"
         app:layout_constraintStart_toStartOf="@+id/view2"
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/botaoGoogle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="113dp"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="112dp"
-        app:layout_constraintEnd_toEndOf="@+id/view2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view2"
-        app:layout_constraintTop_toTopOf="@+id/view2" />
+<!--    <com.google.android.gms.common.SignInButton-->
+<!--        android:id="@+id/botaoGoogle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="113dp"-->
+<!--        android:layout_marginTop="224dp"-->
+<!--        android:layout_marginEnd="112dp"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/view2"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/view2"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/view2" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
