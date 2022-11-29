@@ -6,17 +6,260 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-    <TextView
-        android:id="@+id/text_home"
+    <HorizontalScrollView
+        android:id="@+id/Id_Destaques"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/panteraNegra"
+                android:layout_width="415dp"
+                android:layout_height="650dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="center"
+
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/pantera_negra2"
+                tools:ignore="ImageContrastCheck" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="PANTERA NEGRA Wakanda Para Sempre" />
+
+            <ImageView
+                android:id="@+id/jogadaDeAmor"
+                android:layout_width="370dp"
+                android:layout_height="628dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/jodada_de_amor" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Jogada de Amor" />
+
+            <ImageView
+                android:id="@+id/exorcismoMelhorAmiga"
+                android:layout_width="363dp"
+                android:layout_height="516dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/exorcismo_da_minha_melhor_amiga" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Exorcismo da Minha Melhor Amiga" />
+
+            <ImageView
+                android:id="@+id/jurassicWorld"
+                android:layout_width="393dp"
+                android:layout_height="516dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:layout_gravity="center"
+                android:contentDescription="@string/todo"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/jurassic_word" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Jurassic World Domínio" />
+
+            <ImageView
+                android:id="@+id/naoOlhe"
+                android:layout_width="400dp"
+                android:layout_height="520dp"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/nao_nao_olhe" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="4"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="NÃO! Não Olhe!" />
+
+            <ImageView
+                android:id="@+id/lugarErrado"
+                android:layout_width="358dp"
+                android:layout_height="548dp"
+                android:layout_row="0"
+                android:layout_column="5"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/no_lugar_errado" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="5"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="No Lugar Errado" />
+
+            <ImageView
+                android:id="@+id/pinochio"
+                android:layout_width="368dp"
+                android:layout_height="522dp"
+                android:layout_row="0"
+                android:layout_column="6"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="15dp"
+                android:paddingVertical="15dp"
+                android:src="@drawable/pinochio" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="6"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Pinocchio" />
+
+            <ImageView
+                android:id="@+id/thorAmoreTrovao"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="7"
+                android:layout_gravity="center"
+                android:contentDescription="TODO"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:src="@drawable/thor_amor_e_trovao" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="7"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="THOR Amor e Trovão" />
+
+            <ImageView
+                android:id="@+id/lugarLongeDaqui"
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="8"
+                android:layout_gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:src="@drawable/um_lugar_bem_longe_daqui" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="415dp"
+                android:layout_height="80dp"
+                android:layout_row="0"
+                android:layout_column="8"
+                android:layout_gravity="bottom"
+                android:insetLeft="20dp"
+                android:insetRight="20dp"
+                android:insetBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Um Lugar Bem Longe Daqui" />
+
+        </GridLayout>
+
+    </HorizontalScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
